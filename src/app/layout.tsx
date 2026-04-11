@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     creator: "@cachesaur",
   },
   icons:{
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
   },
   robots: { index: true, follow: true },
 };
