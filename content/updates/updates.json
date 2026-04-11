@@ -1,0 +1,32 @@
+[
+  {
+    "id": "u0",
+    "date": "2026-02-15",
+    "content": "started working on credit risk dashboard, implemented the backend using flask and postgreSQL",
+    "tags": ["ml", "deployment"]
+  },
+  {
+    "id": "u1",
+    "date": "2026-03-18",
+    "content": "started working on 1keycore, designed the architecture using claude ai",
+    "tags": ["1keycore", "architecture"]
+  },
+  {
+    "id": "u2",
+    "date": "2026-04-01",
+    "content": "implemented semantic caching and rate limiting in 1keycore",
+    "tags": ["1keycore", "backend"]
+  },
+  {
+    "id": "u3",
+    "date": "2026-04-08",
+    "content": "deployed the first version of 1keycore UI on vercel",
+    "tags": ["1keycore", "deployment"]
+  },
+  {
+    "id": "u4",
+    "date": "2026-04-11",
+    "content": "Redesigning my portfolio website using minimal design and soft colour themes",
+    "tags": ["design", "upgrade"]
+  }
+]

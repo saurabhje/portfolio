@@ -1,0 +1,12 @@
+{
+  "slug": "1keycore",
+  "title": "1keycore",
+  "description": "A multi-tenant LLM gateway infrastructure to reduce AI bills by implementing semantic caching, rate limiting, and intelligent routing.",
+  "tech": ["Next.js", "FastAPI", "PostgreSQL", "Redis", "Docker"],
+  "tags": ["ml", "developer-tools"],
+  "github": "https://github.com/saurabhje/1keycore",
+  "demo": "https://1keycore.vercel.app",
+  "featured": false,
+  "year": 2026,
+  "status": "active"
+}

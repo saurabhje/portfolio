@@ -1,0 +1,12 @@
+{
+  "slug": "Credit Risk Dashboard",
+  "title": "Credit Risk Dashboard",
+  "description": "Interactive dashboard for loan risk analysis using Logistic Regression and Random Forest, with insights on predictions, feature importance, and risk distribution.",
+  "tech": ["Flask", "PostgreSQL", "React", "Recharts"],
+  "tags": ["analytics"],
+  "github": "https://github.com/saurabhje/credit-risk-dashboard",
+  "demo": "https://credit.saurabh.codes",
+  "featured": true,
+  "year": 2025,
+  "status": "active"
+}
