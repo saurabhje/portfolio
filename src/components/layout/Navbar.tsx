@@ -16,7 +16,7 @@ export function Navbar() {
 
   useEffect(() => {
     let frameId = 0;
-    let timeoutId: ReturnType<typeof setTimeout> | null = null;
+    let timeoutId: number | null = null;
 
     const syncScrolledState = () => setScrolled(window.scrollY > 24);
     const syncAfterRestore = () => {

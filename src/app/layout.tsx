@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description: "Full-stack developer building thoughtful tools and interfaces.",
     creator: "@cachesaur",
   },
+  icons:{
+    icon: "/favicon.ico",
+  },
   robots: { index: true, follow: true },
 };
 

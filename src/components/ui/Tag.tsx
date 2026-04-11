@@ -26,7 +26,7 @@ export function Tag({ label, active = false, onClick, small = false }: TagProps)
     userSelect: "none",
   };
 
-  const buttonStyle: CSSProperties = {
+  const buttonStyle = {
     ...style,
     backgroundColor: undefined,
     borderColor: undefined,
@@ -34,16 +34,10 @@ export function Tag({ label, active = false, onClick, small = false }: TagProps)
     "--tag-bg": active ? "var(--accent)" : "var(--bg-secondary)",
     "--tag-border": active ? "var(--accent)" : "var(--border)",
     "--tag-color": active ? "#fff" : "var(--text-secondary)",
-    "--tag-hover-bg": "var(--accent-bg)",
+    "--tag-hover-bg": active ? "var(--accent)" : "var(--accent-bg)",
     "--tag-hover-border": "var(--accent)",
-    "--tag-hover-color": "var(--accent)",
-  };
-
-  if (active) {
-    buttonStyle["--tag-hover-bg"] = "var(--accent)";
-    buttonStyle["--tag-hover-border"] = "var(--accent)";
-    buttonStyle["--tag-hover-color"] = "#fff";
-  }
+    "--tag-hover-color": active ? "#fff" : "var(--accent)",
+  } as CSSProperties;
 
   if (isButton) {
     return (
