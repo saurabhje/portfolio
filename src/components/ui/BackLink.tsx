@@ -20,8 +20,8 @@ export function BackLink({ href, label }: BackLinkProps) {
         fontSize: "0.8rem",
         textDecoration: "none",
         marginBottom: "3rem",
-        "--link-color": "var(--text-muted)",
-        "--link-hover-color": "var(--text-secondary)",
+        "--link-color": "var(--text-secondary)",
+        "--link-hover-color": "var(--text-primary)",
       } as CSSProperties}
     >
       ← {label}

@@ -3,7 +3,7 @@
   "title": "KeyScripter",
   "description": "Typing speed test app with two modes: text (random paragraphs) and code (random programming snippets) to improve typing speed and accuracy.",
   "tech": ["TypeScript", "Next.js", "Flask", "MySQL"],
-  "tags": ["macos", "automation", "open-source"],
+  "tags": ["feedback", "gamification"],
   "github": "https://github.com/saurabhje/fastcode",
   "demo": "https://type.saurabh.codes",
   "featured": true,
