@@ -20,7 +20,7 @@
   {
     "id": "u3",
     "date": "2026-04-08",
-    "content": "deployed the first version of 1keycore UI on vercel",
+    "content": "deployed the first version of 1keycore-web UI on vercel",
     "tags": ["1keycore", "deployment"]
   },
   {
@@ -34,5 +34,11 @@
     "date": "2026-04-12",
     "content": "Tring to land freelance gigs, I have alawys wanted to do it",
     "tags": ["freelance", "work", "goals"]
+  },
+  {
+    "id": "u6",
+    "date": "2026-04-17",
+    "content": "Shipped the v1 of 1keycore, will work on something different",
+    "tags": ["python", "backend"]
   }
 ]
