@@ -83,10 +83,10 @@ export function HeroSection() {
           maxWidth: "600px",
         }}
       >
-        Building thoughtful software,
+        Backend AI Engineer,
         <br />
         <span style={{ color: "var(--text-secondary)", fontStyle: "italic" }}>
-          one abstraction at a time.
+          building and breaking things one by one.
         </span>
       </h1>
 
@@ -100,9 +100,7 @@ export function HeroSection() {
           marginBottom: "2.5rem",
         }}
       >
-        I&apos;m Saurabh - A backend focused Agentic AI engineer, trying to solve real-world problems with modern technologies from first principle.
-        Not afraid of reinventing the wheel if it means a better solution.
-        Trying to build in public and share my learnings along the way.
+        I&apos;m Saurabh. Building from first principles, not afraid to reinvent the wheel if it means understanding something better. Currently chasing interesting problems and sharing what I learn along the way
       </p>
 
       {/* CTA + socials */}
