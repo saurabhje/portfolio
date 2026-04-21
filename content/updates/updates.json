@@ -40,5 +40,11 @@
     "date": "2026-04-17",
     "content": "Shipped the v1 of 1keycore, will work on something different",
     "tags": ["python", "backend"]
+  },
+  {
+    "id": "u7",
+    "date": "2026-04-21",
+    "content": "built a code editing agent under 200 loc in python using groq",
+    "tags": ["python", "groq"]
   }
 ]
