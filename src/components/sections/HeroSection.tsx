@@ -86,7 +86,7 @@ export function HeroSection() {
         Backend AI Engineer,
         <br />
         <span style={{ color: "var(--text-secondary)", fontStyle: "italic" }}>
-          building and breaking things one by one.
+          focused on building scalable AI systems.
         </span>
       </h1>
 
