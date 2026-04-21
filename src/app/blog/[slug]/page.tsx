@@ -52,6 +52,12 @@ function MdxLink({
   );
 }
 
+function MdxImage({ src = "", alt = "", ...props }: React.ImgHTMLAttributes<HTMLImageElement>) {
+  return (
+    <img src={src} alt={alt} style={{ maxWidth: "100%", height: "auto" }} {...props} />
+  );
+}
+
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
@@ -93,7 +99,7 @@ export default async function BlogPostPage({ params }: Props) {
       <hr style={{ border: "none", borderTop: "1px solid var(--border-light)", marginBottom: "3rem" }} />
 
       <div className="prose" style={{ maxWidth: "620px" }}>
-        {post.content && <MDXRemote source={post.content} components={{ a: MdxLink }} />}
+        {post.content && <MDXRemote source={post.content} components={{ a: MdxLink, img: MdxImage }} />}
       </div>
 
       <div style={{ marginTop: "5rem", paddingTop: "2rem", borderTop: "1px solid var(--border-light)" }}>
