@@ -11,6 +11,7 @@ I read an article by Amp on how to build an agent and decided to build one mysel
 ## What is an AI agent
 
 An agent is just a normal application making calls to an LLM API, but doing it in a loop in a non-deterministic way. It has three things: a loop, some tools (functions it can call), and a conversation history it sends to the model every turn. That is all there is to it.
+![agent architecture](agent-architecture.svg)
 
 ## What I built
 

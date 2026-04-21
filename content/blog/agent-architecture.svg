@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500" style="background:#fff">
+  <style>
+    text { font-family: 'Comic Sans MS', 'Chalkboard SE', cursive; }
+    .box { fill: #fff; stroke: #333; stroke-width: 2.5; rx: 8; }
+    .arrow { stroke: #333; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .label { font-size: 15px; fill: #333; }
+    .title { font-size: 13px; fill: #666; }
+    .diamond { fill: #fff; stroke: #333; stroke-width: 2.5; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- User Input -->
+  <rect x="220" y="20" width="160" height="50" rx="8" fill="#e8f4f8" stroke="#333" stroke-width="2.5"/>
+  <text x="300" y="51" text-anchor="middle" class="label" font-weight="bold">User Input</text>
+
+  <!-- Arrow down to conversation -->
+  <line x1="300" y1="70" x2="300" y2="110" class="arrow"/>
+
+  <!-- Conversation History -->
+  <rect x="190" y="110" width="220" height="50" rx="8" fill="#fff9e6" stroke="#333" stroke-width="2.5"/>
+  <text x="300" y="136" text-anchor="middle" class="label" font-weight="bold">Conversation History</text>
+  <text x="300" y="153" text-anchor="middle" class="title">append user message</text>
+
+  <!-- Arrow down to LLM -->
+  <line x1="300" y1="160" x2="300" y2="200" class="arrow"/>
+
+  <!-- LLM Box -->
+  <rect x="200" y="200" width="200" height="55" rx="8" fill="#f0e6ff" stroke="#333" stroke-width="2.5"/>
+  <text x="300" y="228" text-anchor="middle" class="label" font-weight="bold">LLM</text>
+  <text x="300" y="247" text-anchor="middle" class="title">generate response</text>
+
+  <!-- Arrow down to diamond -->
+  <line x1="300" y1="255" x2="300" y2="300" class="arrow"/>
+
+  <!-- Diamond decision -->
+  <polygon points="300,300 370,340 300,380 230,340" class="diamond"/>
+  <text x="300" y="336" text-anchor="middle" class="label" font-weight="bold">tool</text>
+  <text x="300" y="354" text-anchor="middle" class="label" font-weight="bold">call?</text>
+
+  <!-- Yes arrow right to tool -->
+  <line x1="370" y1="340" x2="450" y2="340" class="arrow"/>
+  <text x="405" y="330" text-anchor="middle" class="title">yes</text>
+
+  <!-- Tool Box -->
+  <rect x="450" y="315" width="120" height="50" rx="8" fill="#e6ffe6" stroke="#333" stroke-width="2.5"/>
+  <text x="510" y="343" text-anchor="middle" class="label" font-weight="bold">Run Tool</text>
+  <text x="510" y="358" text-anchor="middle" class="title">read, write, run</text>
+
+  <!-- Arrow from tool back up to conversation -->
+  <path d="M510,315 Q510,160 410,160" class="arrow" fill="none"/>
+  <text x="530" y="230" text-anchor="middle" class="title" transform="rotate(90, 530, 230)">send result back</text>
+
+  <!-- No arrow down to reply -->
+  <line x1="300" y1="380" x2="300" y2="430" class="arrow"/>
+  <text x="315" y="410" class="title">no</text>
+
+  <!-- Reply box -->
+  <rect x="210" y="430" width="180" height="50" rx="8" fill="#ffe6e6" stroke="#333" stroke-width="2.5"/>
+  <text x="300" y="458" text-anchor="middle" class="label" font-weight="bold">Reply to User</text>
+  <text x="300" y="474" text-anchor="middle" class="title">append to history</text>
+</svg>
