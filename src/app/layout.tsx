@@ -4,7 +4,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: { default: "Saurabh — Developer & Builder", template: "%s | Saurabh" },
+  title: { default: "Sau - Developer & Builder", template: "%s | Saurabh" },
   description: "Full-stack developer building thoughtful tools and interfaces. Writing about software, systems, and the craft of building things.",
   keywords: ["developer", "portfolio", "full-stack", "Next.js", "React"],
   authors: [{ name: "Saurabh" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Saurabh — Developer & Builder",
+    title: "Sau - Developer & Builder",
     description: "Full-stack developer building thoughtful tools and interfaces.",
     creator: "@cachesaur",
   },

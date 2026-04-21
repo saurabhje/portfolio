@@ -1,0 +1,11 @@
+{
+  "slug": "grunty",
+  "title": "grunty",
+  "description": "an autonomous cli based barebone coding agent that does the grunt work for you like changing json files, fixing missing semi-colons, explaining the content inside a file etc",
+  "tech": ["python"],
+  "tags": ["cli", "developer-tools", "ai-agent"],
+  "github": "https://github.com/saurabhje/grunty-coding-agent",
+  "featured": true,
+  "year": 2026,
+  "status": "active"
+}
