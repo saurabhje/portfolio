@@ -83,7 +83,7 @@ export function HeroSection() {
           maxWidth: "600px",
         }}
       >
-        Backend AI Engineer,
+        Full stack Engineer,
         <br />
         <span style={{ color: "var(--text-secondary)", fontStyle: "italic" }}>
           focused on building scalable AI systems.
